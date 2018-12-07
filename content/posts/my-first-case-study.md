@@ -6,7 +6,6 @@ client_name = "Ran ana"
 client_pic = ""
 date = "2018-12-07T10:47:58+00:00"
 deliverables = "Business Analysis, UX, Art Direction"
-draft = true
 facebook = ""
 project_summary = "Analyse and design a social media app that runs on blockchain and rewards its users with cryptocurrency"
 roles = ["Visual Design (iPhone App)", "Wireframe and Prototyping", "Gamification", "Feature Planning", "Information architecture", "Business analysis"]
