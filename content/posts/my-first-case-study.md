@@ -16,3 +16,11 @@ suggested_viewing_1 = ""
 title = "My first case study"
 
 +++
+
+## Lets see if this works
+
+I am trying to make a case study here
+
+This is a single column blog page
+
+I don't have any media with me. However I have filled in **the data through** the template.
