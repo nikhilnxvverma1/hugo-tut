@@ -82,3 +82,5 @@ fields:
   name: facebook
   label: Facebook
   description: Link to facebook share icon
+pages:
+- content/posts/my-first-case-study.md
