@@ -4,7 +4,7 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: Default case study name
+  default: ''
   label: Case study Name
   name: case_study_name
   description: Name of the case study
