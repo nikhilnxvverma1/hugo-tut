@@ -78,3 +78,7 @@ fields:
   name: case_study_link
   label: Case study link
   description: Official link to the case study
+- type: text
+  name: facebook
+  label: Facebook
+  description: Link to facebook share icon
