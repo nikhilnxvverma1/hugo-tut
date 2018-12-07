@@ -1,0 +1,80 @@
+---
+label: case-study
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Default case study name
+  label: Case study Name
+  name: case_study_name
+  description: Name of the case study
+  config:
+    required: true
+- type: file
+  label: Client pic
+  name: client_pic
+  description: Small client profile pic used as an avatar
+  config:
+    maxSize: '2'
+- type: text
+  name: start_date
+  label: start date
+  description: Text based start date
+- type: textarea
+  name: project_summary
+  label: project summary
+  description: A brief overview of the project
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: client_name
+  label: client name
+  description: Name of the client
+  config:
+    required: true
+- type: textarea
+  name: challenges
+  label: Challenges
+  description: Overview of challenges appearing left side (next to 'my roles')
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: status
+  label: status
+  description: Online, Closed beta, In Development etc
+  config:
+    required: true
+- type: text
+  name: deliverables
+  label: deliverables
+  description: A very brief (preferably comma separated) list of company values delivered
+  config:
+    required: true
+- type: list
+  name: roles
+  label: roles
+  description: Your roles in the project
+  config:
+    min: '1'
+    use_select: false
+    source:
+      type: documents
+  default: []
+- type: select
+  name: suggested_viewing_1
+  config:
+    source:
+      type: documents
+      file: content/posts/my-first-post.md
+  label: Suggested viewing 1
+  description: Link to the case study appearing on left side at the end of page
+- type: text
+  name: case_study_link
+  label: Case study link
+  description: Official link to the case study
